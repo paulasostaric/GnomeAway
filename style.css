@@ -1,0 +1,225 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@200&display=swap');
+
+*{
+  font-family: 'Poppins', sans-serif;
+
+}
+
+body{
+  margin:0;
+  padding:0;
+  scroll-behavior: smooth;
+}
+
+::selection{
+  background:black;
+  color:#1565c0;
+}
+header{
+  background-image:url("./slike/back.png");
+  background-size:cover;
+  height:100vh;
+  box-shadow: rgb(0, 0, 0, 0.7) 0 0 0 1000px inset;  
+}
+
+.menu{
+  display:flex;
+  align-items: center;
+}
+
+.heading-div{
+  width:340px;
+}
+
+.heading{
+  padding:10px 100px;
+  font-size:40px;
+}
+
+.navi{
+  width:2500px;
+}
+.linkovi {
+  display:flex;
+  justify-content: center;
+  gap: 50px;
+}
+
+.heading{
+  color:white;
+}
+.navi a{
+  text-decoration:none;
+  color:white;
+  font-size:20px;
+}
+
+.gumbi{
+  display: flex;
+  justify-content: center;
+  width:580px;
+}
+
+
+.shop-btn{
+  width:110px;
+  height:30px;
+  border:transparent;
+  border-radius:60px;
+  background-color:#1565c0;
+  color:white;
+}
+
+
+.center-part{
+  margin:300px;
+  margin-top:100px;
+  height:35vh;
+  text-align:center;
+}
+
+.heading-real h1{
+  font-size:50px;
+  color:white;
+}
+
+.input-part{
+  display:flex;
+  padding-top:100px;
+}
+
+.input-part input {
+  padding-right:0;
+  width: 500px;
+  height:50px;
+  border-radius: 90px 0px 0px 90px;
+  padding-left:50px;
+  font-size:20px;
+  border:transparent;
+}
+
+.input-part button {
+  padding-left:0;
+  width: 190px;
+  height:50px;
+  border-radius: 0px 90px 90px 0px;
+  background-color:#1565c0;
+  border:transparent;
+  font-size:20px;
+  color:white;
+}
+
+.input-part div {
+  margin-left:150px;
+  width:1030px;
+  height:110px;
+}
+
+.ideas-holder {
+  width: 100%;
+  display: flex;
+  justify-content: center;
+}
+
+.ideas {
+  width:1000px;
+  height:300px;
+  font-size: 20px;
+}
+
+.ideas h1 {
+  text-align: center;
+}
+
+.form-h {
+  display:flex;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+}
+
+.form-h div {
+  margin: 50px;
+  padding: 30px;
+}
+
+/* 
+.ideas{
+  display:flex;
+}
+
+.idea{
+  width:580px;
+  height:390px;
+  float:right;
+  padding-top:100px;
+}
+
+.left-part {
+  width:1000px;
+}
+.left-part h1 {
+  font-size:60px;
+  padding-left:70px;
+}
+
+.left-part p {
+  font-size:25px;
+  padding-left:70px;
+}
+
+.games img {
+  width:300px;
+  height:220px;
+}
+
+.games .examples {
+  margin:150px 384px 100px 384px;
+  
+  display:flex;
+}
+
+.examples div {
+  border:1px solid black;
+  width:384px;
+  text-align:center;
+}
+
+footer{
+  background:#1565c0;
+}
+
+.hed{
+  display:flex;
+  margin-left:400px;
+  color:white;
+}
+
+.pages{
+  padding-left:700px;
+}
+
+.pages h4 {
+  margin:0;
+}
+
+hr{
+  width:1300px;
+  margin-botton:100px;
+}
+
+.tablica img{
+  width:300px;
+  height:300px;
+  
+}
+.tablica td,tr{
+  border:1px solid black;
+  
+}
+
+.pocetna{
+  background-color:grey;
+  
+}
+*/
